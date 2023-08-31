@@ -153,3 +153,17 @@ button:hover{
 .hight{
     color: #db1912;
 }
+
+@media(max-width: 380px){
+    .container{
+        min-height: 350px;
+        min-width: 350px;
+    }
+}
+
+@media(max-width: 350px){
+    .container{
+        min-height: 300px;
+        min-width: 300px;
+    }
+}
